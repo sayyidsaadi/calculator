@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 0px;
+}
+.cal-wrapper{
+    width: 300px;
+    margin: 10px auto;
+    padding-bottom: 1px;
+    background-color: #3F3F3F;
+    text-align: center;
+}
+.cal-header> input {
+    width: 81%;
+    height: 70px;
+    background-color: #A8C45D;
+    margin: 15px 8px;
+    border-radius: 10px;
+    color: #0B0A0B;
+    font-size: 40px;
+    text-align: right;
+    padding: 0px 5px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: bold;
+}
+.cal-body {
+    margin: 10px 26px;
+}
+.top-mr{
+    margin-top: 10px;
+}
+.cal-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn {
+    font-size: 23px;
+    width: 75px;
+    height: 51px;
+    cursor: pointer;
+    background-color: #3B3B3B;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+}
+.exbtn{
+    background-color: #B0B0B0;
+}
+.equal-btn{
+    width: 100%;
+    background-color: chocolate;
+}
+.btn:hover{
+    background-color:chocolate;
+}

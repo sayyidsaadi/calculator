@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalCulator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+<div class="cal-wrapper">
+    <div class="cal-header">
+        <input type="text" id="output">
+    </div>
+    <div class="cal-body">
+        <div class="cal-item top-mr">
+            <input type="button" class="btn exbtn" onclick="deleteD()" value="C">
+            <input type="button" class="btn" onclick="button('9')" value="9">
+            <input type="button" class="btn" onclick="button('8')" value="8">
+            <input type="button" class="btn" onclick="button('/')" value="/">
+        </div>
+        <div class="cal-item">
+            <input type="button" class="btn" onclick="button('7')" value="7">
+            <input type="button" class="btn" onclick="button('6')" value="6">
+            <input type="button" class="btn" onclick="button('5')" value="5">
+            <input type="button" class="btn exbtn" onclick="button('*')" value="*">
+        </div>
+        <div class="cal-item">
+            <input type="button" class="btn" onclick="button('4')" value="4">
+            <input type="button" class="btn" onclick="button('3')" value="3">
+            <input type="button" class="btn" onclick="button('2')" value="2">
+            <input type="button" class="btn exbtn" onclick="button('-')" value="-">
+        </div>
+        <div class="cal-item">
+            <input type="button" class="btn" onclick="button('1')" value="1">
+            <input type="button" class="btn" onclick="button('0')" value="0">
+            <input type="button" class="btn" onclick="button('.')" value=".">
+            <input type="button" class="btn exbtn" onclick="button('+')" value="+">
+        </div>
+        <div class="cal-item">
+            <input type="button" onclick="calculation()" class="btn equal-btn" value="=">
+        </div>
+    </div>
+</div>
+
+
+<script src="./js/app.js"></script>
+</body>
+</html>
